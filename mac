@@ -149,6 +149,11 @@ brew_install_or_upgrade 'node'
 
 brew_install_or_upgrade 'rbenv'
 brew_install_or_upgrade 'ruby-build'
+brew_install_or_upgrade 'google-chrome'
+brew_install_or_upgrade 'chrome-devtools'
+brew_install_or_upgrade 'front'
+brew_install_or_upgrade 'slack'
+brew_install_or_upgrade 'iterm2'
 
 # shellcheck disable=SC2016
 append_to_zshrc 'eval "$(rbenv init - --no-rehash zsh)"' 1
